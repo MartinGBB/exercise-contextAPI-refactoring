@@ -20,7 +20,7 @@ class Provider extends Component {
 
   render() {
     const context = { ...this.state, moveCar: this.moveCar}
-    const { children } = this.props
+    const { children } = this.props;
     return (
         <MyContext.Provider value={ context }>
           { children }

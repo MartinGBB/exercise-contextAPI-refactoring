@@ -11,6 +11,7 @@ class Cars extends Component {
   render () {
   const { red: redCar, blue: blueCar, yellow: yellowCar } = this.context.cars;
   const { moveCar } = this.context;
+  console.log(this.context.cars)
   return (
     <div>
       <div>
